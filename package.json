@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server",
+    "start": "npm run dev",
     "build": "webpack --env.prod",
     "ncu": "ncu",
     "ncu:upgrade": "ncu -u"
